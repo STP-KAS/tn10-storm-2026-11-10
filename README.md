@@ -1,6 +1,6 @@
 > **Experimental. We are just trying this.** [Disclaimer](DISCLAIMER.md) · Kaspa Testnet-10 only; tKAS has no value. **Tue 10 Nov 2026, 19:00 UTC (20:00 CET).** Mainnet: **not tested (label B)**.
 >
-> **This writing is in front of Kaspa Pulse for a revision. A read does not start a runner while this sentence is in the file.**
+> **The operator arms this on Tue 10 Nov 2026 by sending the paste. A read before that day does not start a runner.**
 >
 > **Part of [tn-master](https://github.com/STP-KAS/tn-master)**, the map of every TN10 storm. Named by the [11 Oct naming rule](https://github.com/STP-KAS/tn-master/blob/main/repos/INDEX.md): `tn10-storm-YYYY-MM-DD`.
 
@@ -12,7 +12,7 @@
 
 **The rehearsal of the shape, plus a sixteen-family step, is [tn10-storm-2026-11-08](https://github.com/STP-KAS/tn10-storm-2026-11-08).** The desk night closed 04:50 UTC. The scores are one desk reading. The standing rule from that night is [RULES.md](https://github.com/STP-KAS/tn10-storm-2026-11-08/blob/main/RULES.md).
 
-**Today's confirmation, 8 Nov 2026 at 12:00 UTC, is [tn10-storm-2026-11-08-confirm](https://github.com/STP-KAS/tn10-storm-2026-11-08-confirm).** That clock is not this one. This repo is the count Pulse named for Tuesday. The readings go up here when they are ready. Wednesday and Thursday are the latest.
+**The confirmation, 8 Nov 2026 at 12:00 UTC, finished at 16:10 UTC:** [tn10-storm-2026-11-08-confirm](https://github.com/STP-KAS/tn10-storm-2026-11-08-confirm). Both publishers fired. The reading is [logs/METHOD.md](https://github.com/STP-KAS/tn10-storm-2026-11-08-confirm/blob/main/logs/METHOD.md). That clock is not this one. This repo is the count for Tuesday. The readings go up here when they are ready. Wednesday and Thursday are the latest.
 
 ## The two pastes
 
@@ -35,8 +35,9 @@ Times are UTC first. Desk local is CET (UTC+1). The shape and the times are Satu
 
 | | UTC | CET |
 |---|---|---|
-| Both machines have read their paste | **18:20** | **19:20** |
-| Eight hashes proved on this repo | **18:40** | **19:40** |
+| Operator sends the two pastes. Mini's armed line is on origin | **18:20** | **19:20** |
+| Desk writes the eight hashes and the On origin line | **18:25** | **19:25** |
+| Eight hashes proved on this repo. After this minute the proof is late | **18:40** | **19:40** |
 | Genesis, eight families | 18:55 | 19:55 |
 | Counts on | 18:58 | 19:58 |
 | **START (T0)** | **19:00** | **20:00** |

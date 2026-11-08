@@ -8,7 +8,7 @@ Saturday 7 Nov 2026 was this shape. The sender was due at 19:00 UTC. It did not 
 
 He named Tuesday 10 Nov 2026 for the count. Same shape. Same times. We accepted Tuesday. Wednesday 11 Nov stays the spare he offered. We are not taking it.
 
-The 8 Nov rehearsal ran the family steps, the 32-family load, and a sixteen-family step on its own clock. The desk night closed at 04:50:03 UTC. The method log is [logs/METHOD.md](https://github.com/STP-KAS/tn10-storm-2026-11-08/blob/main/logs/METHOD.md). Those numbers are one desk reading. They are not this count. Sixteen families are not on Tuesday's clock.
+The 8 Nov rehearsal ran the family steps, the 32-family load, and a sixteen-family step on its own clock. The desk night closed at 04:50:03 UTC. The confirmation at 12:00 UTC the same day finished at 16:10 UTC, and both publishers fired. That reading is [logs/METHOD.md](https://github.com/STP-KAS/tn10-storm-2026-11-08-confirm/blob/main/logs/METHOD.md). Those numbers are not this count. Sixteen families are not on Tuesday's clock. A larger load is not on this clock either. The confirmation's 32-family mean was under the 3,078 line, and this night stays the shape Pulse named.
 
 ## What Tuesday measures
 

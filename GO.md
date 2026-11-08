@@ -2,7 +2,7 @@
 >
 > **This page is the map. It does not start a machine.** Paste the file that names the machine in front of you.
 >
-> This writing is in front of Kaspa Pulse for a revision. A read does not start a runner while this sentence is in the file.
+> The operator arms this on Tue 10 Nov 2026 by sending the paste. A read before that day does not start a runner.
 
 # Which paste
 

@@ -4,7 +4,9 @@
 
 Empty until the night writes them.
 
-The runners publish the working counts under `counts/desk/` and `counts/mini/` when each window closes.
+Mini's first file is `MINI-ARMED.md`. One line: `MINI_ARMED` and the UTC time Mini armed. The desk hashes only when that line is on origin. A sentence in another chat is not the signal.
+
+The runners publish the working counts under `counts/desk/` and `counts/mini/` when each window closes. Wednesday and Thursday are the latest for the two handover files. The files go up when the readings are ready.
 
 The handover for Pulse lands here:
 

@@ -4,7 +4,7 @@
 
 The day is **Tue 10 Nov 2026**. The shape and the times are Saturday 7 Nov. T0 is 19:00 UTC. Both pastes carry this clock. The standing rule is [RULES.md](../RULES.md).
 
-This writing is in front of Kaspa Pulse for a revision. A read does not start a runner while this sentence is in the file.
+The operator arms this on Tue 10 Nov 2026 by sending the paste. A read before that day does not start a runner.
 
 ## Shape
 
@@ -42,8 +42,8 @@ The rule is [COUNT.md](COUNT.md).
 
 | File | Before |
 |---|---|
-| hashes/EIGHT.md | 18:40 UTC |
-| hashes/THIRTYTWO.md | 21:10 UTC, and after the eight-family genesis has spent its coins |
+| hashes/EIGHT.md | Written at 18:25 UTC. Proved, with the On origin line, before 18:40 UTC |
+| hashes/THIRTYTWO.md | After the eight-family window ends at 20:30, and proved before 21:10 UTC |
 
 Each file gets an On origin time from the commit that put the rows on GitHub. No proved file, no send.
 
@@ -59,4 +59,4 @@ One process on the desk chains the eight-family window, then the load. The load 
 
 ## What this plan does not change
 
-The 7 Nov repo stays the record of the window that did not run. The 8 Nov repo stays the rehearsal. The 10:40 UTC confirmation stays its own clock. This plan does not start a sender for any of them.
+The 7 Nov repo stays the record of the window that did not run. The 8 Nov repo stays the rehearsal. The 8 Nov 12:00 confirmation finished and stays its own clock. This plan does not start a sender for any of them. No extra families and no extra coins are added to this night.

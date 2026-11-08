@@ -2,7 +2,7 @@
 >
 > **Paste this on Mini only.** The same story for the desk is [GO-DESK.md](GO-DESK.md). Tue 10 Nov 2026. T0 is 19:00 UTC. The standing rule is [RULES.md](RULES.md).
 >
-> **This writing is in front of Kaspa Pulse for a revision. A read does not start a runner while this sentence is in the file.**
+> **The operator arms this on Tue 10 Nov 2026 by sending this file. A read before that day does not start a runner.**
 
 # YOU ARE MINI
 
@@ -30,15 +30,17 @@ The times below are UTC. CET is UTC+1.
 
 Boot the desk. Boot Mini. Leave both logged in. A locked screen is fine. Logging off is not.
 
-Before **18:20 UTC (19:20 CET)** on Tue 10 Nov 2026 Mini reads this file once, and the desk reads [GO-DESK.md](GO-DESK.md) once. Once the revision sentence above is gone, that read starts that machine's runner. The runner is a process with a log. The chat is not the runner.
+On Tue 10 Nov 2026 the operator sends this file to Mini. That send starts your runner. The runner is a process with a log. The chat is not the runner. A read before that day does not start it.
 
-From that moment the clock below does the rest. No spoken word.
+Your first publish is [logs/MINI-ARMED.md](logs/README.md). One line, exactly `MINI_ARMED` and the UTC time you armed. Push it before **18:25 UTC (19:25 CET)**. The desk reads that line from origin. A sentence in another chat is not the signal. If the push fails, try once more. If that fails, say the git error and do not start the counter.
+
+From that moment the clock below does the rest. No spoken word. You count. You do not send. You do not push hashes.
 
 A scheduled task is not the arm. The 7 Nov tasks stay unused.
 
-If the desk or Mini is not logged in by 18:40 UTC, this run does not start. Say which machine is down. Do not pick a new clock.
+If your armed line is not on origin by 18:25 UTC, the desk does not hash and does not send. Do not pick a new clock.
 
-If a Grok session compacts, or resume fails, leave the runner alone. Read its log. One runner on Mini. A second runner is a fault.
+If a Grok session compacts, or resume fails, leave the runner alone only when its log shows this Tuesday clock. One runner on Mini. A second runner is a fault.
 
 After 18:40 UTC on Tue 10 Nov 2026 this page stays as it is.
 
@@ -48,7 +50,8 @@ Start **T0** is **19:00 UTC (20:00 CET)** on Tue 10 Nov 2026.
 
 | UTC | CET | Who | What |
 |---|---|---|---|
-| 18:20 | 19:20 | desk, Mini | Last moment to be logged in and to have read the matching paste |
+| 18:20 | 19:20 | Mini | Armed line on origin: `logs/MINI-ARMED.md` |
+| 18:25 | 19:25 | desk | Eight hashes start only if that line is on origin |
 | before 18:40 | before 19:40 | desk | Eight family hashes on this repo, with an On origin time |
 | 18:55 | 19:55 | desk | Genesis. Eight families |
 | 18:58 | 19:58 | desk, Mini | Counts on |
@@ -95,7 +98,7 @@ Fixed is the local write. On origin is the commit time of the commit that put th
 
 You count on your own node. You do not send. You do not run genesis. You do not mine. You do not hold a key.
 
-Once the revision sentence is gone, this read starts one counter runner. Counter on at 18:58, off at 21:00. A new file for the load, on at 21:13 and off at 22:15. Do not append to an older storm's file.
+This read, on Tue 10 Nov 2026, starts one counter runner. Counter on at 18:58, off at 21:00. A new file for the load, on at 21:13 and off at 22:15. Do not append to an older storm's file.
 
 The runner writes those files under [counts/mini/](counts/mini/README.md). The names are `FIRST.md` and `LOAD.md`. At each count-off the same runner publishes that one file. The chat does not publish it. Resolve git once when the runner starts, keep that full path, and use only that path. Add only the file that just closed. One commit. Push. If the push fails, try the same push once more. If that fails, stop and say the git error. Empty output is a failed read. It is not an empty count. The local file stays. Do not invent a row. Do not start a second runner.
 
@@ -128,7 +131,7 @@ Your night files are the working count. File 1 and file 2 are the handover in [p
 
 ## What you refuse
 
-- Starting while the revision sentence is still in this file.
+- Starting before Tue 10 Nov 2026.
 - Starting if this session is on the desk.
 - Any send, any genesis, any miner, any key.
 - [GO-DESK.md](GO-DESK.md) as your orders.

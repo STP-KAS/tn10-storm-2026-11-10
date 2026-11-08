@@ -6,8 +6,8 @@
 
 | File | When it has to be here | What it covers |
 |---|---|---|
-| EIGHT.md | before 18:40 UTC on Tue 10 Nov 2026 | the 1-to-8 shape |
-| THIRTYTWO.md | before 21:10 UTC, and after the eight-family genesis | the 32-family load |
+| EIGHT.md | Written at 18:25 UTC. Proved before 18:40 UTC on Tue 10 Nov 2026 | the 1-to-8 shape |
+| THIRTYTWO.md | After 20:30 UTC, and proved before 21:10 UTC | the 32-family load |
 
 Each row is a sha256 of a lowercase hex covenant id. The id stays off this repo. The desk paste is [GO-DESK.md](../GO-DESK.md). No file, no send.
 

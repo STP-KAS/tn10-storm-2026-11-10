@@ -2,7 +2,7 @@
 >
 > **Paste this on the desk only.** The same story for Mini is [GO-MINI.md](GO-MINI.md). Tue 10 Nov 2026. T0 is 19:00 UTC. The standing rule is [RULES.md](RULES.md).
 >
-> **This writing is in front of Kaspa Pulse for a revision. A read does not start a runner while this sentence is in the file.**
+> **The operator arms this on Tue 10 Nov 2026 by sending this file. A read before that day does not start a runner.**
 
 # YOU ARE THE DESK
 
@@ -30,15 +30,15 @@ The times below are UTC. CET is UTC+1.
 
 Boot the desk. Boot Mini. Leave both logged in. A locked screen is fine. Logging off is not.
 
-Before **18:20 UTC (19:20 CET)** on Tue 10 Nov 2026 the desk reads this file once, and Mini reads [GO-MINI.md](GO-MINI.md) once. Once the revision sentence above is gone, that read starts that machine's runner. The runner is a process with a log. The chat is not the runner.
+On Tue 10 Nov 2026 the operator sends this file to the desk. That send starts the desk runner. The runner is a process with a log. The chat is not the runner. A read before that day does not start it.
 
-From that moment the clock below does the rest. Hashes, genesis, the sends, both counts, and the 32-family load. No third sheet. No spoken word. No "genesis is in".
+Mini sends [GO-MINI.md](GO-MINI.md) on Mini and pushes [logs/MINI-ARMED.md](logs/README.md) before **18:25 UTC**. You read that line from origin. If it is missing at 18:25, you stop. You do not hash. You do not send. You do not pick a new clock.
+
+The eight hashes are written at 18:25 UTC. The rows go up, then the On origin line. Both have to be on this repo before **18:40 UTC**. If the proof line fails, try the same push once more. If it is still missing at 18:40, stop. Do not move the clock.
+
+From the armed line, the clock below does the rest. Hashes, genesis, the sends, both counts, and the 32-family load. No third sheet. No spoken word. No "genesis is in". No sixteen-family step.
 
 A scheduled task is not the arm. The 7 Nov tasks stay unused.
-
-The eight hashes have to be proved on this repo before **18:40 UTC**. The 18:20 paste leaves time for that proof. If the proof would miss 18:40, do not start. Do not pick a new clock.
-
-If the desk or Mini is not logged in by 18:40 UTC, this run does not start. Say which machine is down.
 
 If a Grok session compacts, or resume fails, leave the runner alone. Read its log. One runner on the desk. One runner on Mini. A second runner is a fault.
 
@@ -50,9 +50,9 @@ Start **T0** is **19:00 UTC (20:00 CET)** on Tue 10 Nov 2026.
 
 | UTC | CET | Who | What |
 |---|---|---|---|
-| 18:20 | 19:20 | desk, Mini | Last moment to be logged in and to have read the matching paste |
-| before 18:40 | before 19:40 | desk | Eight family hashes on this repo, with an On origin time |
-| 18:40 | 19:40 | desk, Mini | Checks. Both nodes synced, miners off, pool above the abort line |
+| 18:20 | 19:20 | Mini | Armed line on origin: `logs/MINI-ARMED.md` |
+| 18:25 | 19:25 | desk | Eight hashes written. The On origin line follows |
+| 18:40 | 19:40 | desk | Proof is late after this minute. Do not start. Checks: both nodes synced, miners off, pool above the abort line |
 | 18:55 | 19:55 | desk | Genesis. Eight families |
 | 18:58 | 19:58 | desk, Mini | Counts on |
 | 19:00–19:15 | 20:00–20:15 | desk sends | 1 family, 15 minutes |
@@ -108,7 +108,7 @@ Fixed is the local write time. On origin is the commit time of the commit that p
 
 You send. You also count.
 
-Once the revision sentence is gone, this read starts one runner. The runner sleeps until the clock. It writes a phase log. After the runner is up, the session can die. The runner keeps the clock.
+This read, on Tue 10 Nov 2026, starts one runner. The runner sleeps until the clock. It writes a phase log. After the runner is up, the session can die. The runner keeps the clock.
 
 You count on the desk node for the same two windows Mini counts. The runner writes [counts/desk/FIRST.md](counts/desk/README.md) for 18:58–21:00, and [counts/desk/LOAD.md](counts/desk/README.md) for 21:13–22:15. At each window end the same runner publishes that one file. The chat does not publish it. Resolve git once when the runner starts, keep that full path, and use only that path. Add only the file that just closed. One commit. Push. If the push fails, try the same push once more. If that fails, stop and say the git error. Empty output is a failed read. It is not an empty count. The local file stays. Do not invent a row. Do not start a second runner. A minute you did not read in full stays marked. A txid, a key, a seed, an address, a host, a port, and a covenant id stay out of the file. The accepting block hash may stay on the row. You do not write [counts/mini/](counts/mini/README.md).
 
@@ -143,7 +143,7 @@ The night folders are the working counts. File 1 and file 2 are the handover. Th
 
 ## What you refuse
 
-- Starting while the revision sentence is still in this file.
+- Starting before Tue 10 Nov 2026.
 - Starting if this session is on Mini.
 - [GO-MINI.md](GO-MINI.md) as your orders.
 - [GO.md](GO.md) as a start.

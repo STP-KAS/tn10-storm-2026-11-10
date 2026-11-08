@@ -1,6 +1,6 @@
 > **Experimental. We are just trying this.** [Disclaimer](../DISCLAIMER.md) · Kaspa Testnet-10 only.
 >
-> This writing is in front of Kaspa Pulse for a revision. A read does not start a runner while this sentence is in the file.
+> The operator arms this on Tue 10 Nov 2026 by sending the paste. A read before that day does not start a runner.
 
 # One clock
 

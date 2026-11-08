@@ -38,4 +38,4 @@ Call git by its full path. Keep the errors. Empty output is a failed read. Read 
 
 One runner on the desk. One runner on Mini. The runner is a process with a log. The chat is not the runner. A second runner is a fault. A scheduled task is not the arm. The 7 Nov tasks stay unused.
 
-The human pastes [GO-DESK.md](GO-DESK.md) on the desk and [GO-MINI.md](GO-MINI.md) on Mini. There is no spoken word.
+The operator arms the machine. He sends [GO-DESK.md](GO-DESK.md) to the desk and [GO-MINI.md](GO-MINI.md) to Mini. Until that send, the machine waits. This holds until he says otherwise. There is no spoken word.

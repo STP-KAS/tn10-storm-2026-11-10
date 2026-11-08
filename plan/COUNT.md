@@ -20,7 +20,7 @@ The two readings stay separate. This plan does not average them.
 
 ## Pulse's two files
 
-These are the handover. They are not a second clock.
+These are the handover. They are not a second clock. Wednesday and Thursday are the latest. When a reading is ready, it goes on this repo then. The run does not wait for those days, and the files do not wait for a later approval.
 
 | File | What | By | Where |
 |---|---|---|---|

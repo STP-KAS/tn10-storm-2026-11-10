@@ -12,7 +12,7 @@
 
 **The rehearsal of the shape, plus a sixteen-family step, is [tn10-storm-2026-11-08](https://github.com/STP-KAS/tn10-storm-2026-11-08).** The desk night closed 04:50 UTC. The scores are one desk reading. The standing rule from that night is [RULES.md](https://github.com/STP-KAS/tn10-storm-2026-11-08/blob/main/RULES.md).
 
-**Today's confirmation, 8 Nov 2026 at 10:40 UTC, is [tn10-storm-2026-11-08-confirm](https://github.com/STP-KAS/tn10-storm-2026-11-08-confirm).** That clock is not this one. This repo is the count Pulse named for Tuesday.
+**Today's confirmation, 8 Nov 2026 at 12:00 UTC, is [tn10-storm-2026-11-08-confirm](https://github.com/STP-KAS/tn10-storm-2026-11-08-confirm).** That clock is not this one. This repo is the count Pulse named for Tuesday. The readings go up here when they are ready. Wednesday and Thursday are the latest.
 
 ## The two pastes
 

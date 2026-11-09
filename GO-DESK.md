@@ -22,7 +22,7 @@ This file is the count Pulse named. The 8 Nov rehearsal is [tn10-storm-2026-11-0
 
 The calendar day in this file is **Tue 10 Nov 2026**.
 
-Mini's paste contains the same day. Wednesday 11 Nov is the spare Pulse offered. We are not taking it. Do not move this clock onto Wednesday unless he writes that change into both pastes.
+Mini's paste contains the same day. Wednesday 11 Nov is a different neuron, [tn10-storm-2026-11-11](https://github.com/STP-KAS/tn10-storm-2026-11-11). This clock stays on Tuesday. Do not move it.
 
 The times below are UTC. CET is UTC+1.
 

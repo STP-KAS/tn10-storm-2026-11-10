@@ -32,10 +32,10 @@ The desk writes each hash file before the matching send. Fixed is the local writ
 
 ## Git
 
-Call git by its full path. Keep the errors. Empty output is a failed read. Read once more with the same path. If that read fails too, stop. One commit per file that just closed. If the push fails, try the same push once more. Then stop and say the git error.
+Call git by its full path. Keep the errors. Empty output is a failed read. Read once more with the same path. If that read fails too, stop. One commit per file that just closed. If the push is rejected, fetch, rebase onto origin, and push once more. If that fails, stop and say the git error. The same runner retries a failed eight-hash proof once, before 18:40 UTC. It does not start a second runner to retry.
 
 ## One runner
 
-One runner on the desk. One runner on Mini. The runner is a process with a log. The chat is not the runner. A second runner is a fault. A scheduled task is not the arm. The 7 Nov tasks stay unused.
+One runner on the desk. One runner on Mini. The runner is a process with a log. The chat is not the runner. A second runner is a fault. If this clock's runner is already waiting, a later paste confirms the arm and leaves that process. A copied runner still aimed at an earlier night is not this clock. This night's log, hashes, and counts stay in this night's folder. A scheduled task is not the arm. The 7 Nov tasks stay unused.
 
 The operator arms the machine. He sends [GO-DESK.md](GO-DESK.md) to the desk and [GO-MINI.md](GO-MINI.md) to Mini. Until that send, the machine waits. This holds until he says otherwise. There is no spoken word.

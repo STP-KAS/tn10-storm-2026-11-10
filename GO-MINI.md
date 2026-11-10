@@ -30,9 +30,9 @@ The times below are UTC. CET is UTC+1.
 
 Boot the desk. Boot Mini. Leave both logged in. A locked screen is fine. Logging off is not.
 
-On Tue 10 Nov 2026 the operator sends this file to Mini. That send starts your runner. The runner is a process with a log. The chat is not the runner. A read before that day does not start it.
+On Tue 10 Nov 2026 the operator sends this file to Mini. That send starts your runner. The runner is a process with a log. The chat is not the runner. A read before that day does not start it. If your runner is already up and its log shows this Tuesday clock, this paste confirms the arm. Leave that process. Do not start a second.
 
-Your first publish is [logs/MINI-ARMED.md](logs/README.md). One line, exactly `MINI_ARMED` and the UTC time you armed. Push it before **18:25 UTC (19:25 CET)**. The desk reads that line from origin. A sentence in another chat is not the signal. If the push fails, try once more. If that fails, say the git error and do not start the counter.
+Your first publish is [logs/MINI-ARMED.md](logs/README.md). One line, exactly `MINI_ARMED` and the UTC time you armed. Push it before **18:25 UTC (19:25 CET)**. The desk reads that line from origin. A sentence in another chat is not the signal. If that line is already on origin for this Tuesday, leave it. If the push is rejected, fetch, rebase onto origin, and push once more. If that fails, say the git error and do not start the counter. Do not write this night into an earlier night's folder.
 
 From that moment the clock below does the rest. No spoken word. You count. You do not send. You do not push hashes.
 
@@ -98,9 +98,9 @@ Fixed is the local write. On origin is the commit time of the commit that put th
 
 You count on your own node. You do not send. You do not run genesis. You do not mine. You do not hold a key.
 
-This read, on Tue 10 Nov 2026, starts one counter runner. Counter on at 18:58, off at 21:00. A new file for the load, on at 21:13 and off at 22:15. Do not append to an older storm's file.
+This read, on Tue 10 Nov 2026, starts one counter runner, unless your runner for this Tuesday clock is already waiting. Then you leave it. Counter on at 18:58, off at 21:00. A new file for the load, on at 21:13 and off at 22:15. Do not append to an older storm's file. This night's counts stay in this night's folder.
 
-The runner writes those files under [counts/mini/](counts/mini/README.md). The names are `FIRST.md` and `LOAD.md`. At each count-off the same runner publishes that one file. The chat does not publish it. Resolve git once when the runner starts, keep that full path, and use only that path. Add only the file that just closed. One commit. Push. If the push fails, try the same push once more. If that fails, stop and say the git error. Empty output is a failed read. It is not an empty count. The local file stays. Do not invent a row. Do not start a second runner.
+The runner writes those files under [counts/mini/](counts/mini/README.md). The names are `FIRST.md` and `LOAD.md`. At each count-off the same runner publishes that one file. The chat does not publish it. Resolve git once when the runner starts, keep that full path, and use only that path. Add only the file that just closed. One commit. Push. If the push is rejected, fetch, rebase onto origin, and push once more. If that fails, stop and say the git error. Empty output is a failed read. It is not an empty count. The local file stays. Do not invent a row. Do not start a second runner.
 
 A txid, a key, a seed, an address, a host, a port, and a covenant id stay out of the file. The accepting block hash may stay on the row. The family column is the family label you already store. If that label is a sha256, keep the sha256. Do not write the covenant id.
 

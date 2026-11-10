@@ -18,3 +18,5 @@ If the first sentence names the other machine, stop that session and paste the o
 Bot reads either file and watches. Bot does not send. The run does not wait for bot.
 
 The day is Tue 10 Nov 2026. Start is 19:00 UTC (20:00 CET). This is the count Pulse named. It is not the 8 Nov rehearsal, and it is not the 10:40 UTC confirmation.
+
+A later paste, while that machine's runner is already waiting for this clock, confirms the arm. It does not start a second runner. A copied runner still aimed at an earlier night is not this clock.

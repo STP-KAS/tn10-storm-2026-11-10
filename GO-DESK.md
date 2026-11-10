@@ -30,11 +30,13 @@ The times below are UTC. CET is UTC+1.
 
 Boot the desk. Boot Mini. Leave both logged in. A locked screen is fine. Logging off is not.
 
-On Tue 10 Nov 2026 the operator sends this file to the desk. That send starts the desk runner. The runner is a process with a log. The chat is not the runner. A read before that day does not start it.
+On Tue 10 Nov 2026 the operator sends this file to the desk. That send starts the desk runner. The runner is a process with a log. The chat is not the runner. A read before that day does not start it. If a runner for this Tuesday clock is already up, and its log shows it waiting for the 18:25 UTC hash, this paste confirms the arm. Leave that process. Do not start a second.
+
+A copied runner still aimed at an earlier night is not this clock. Point it at this night before it starts. This night's log, hashes, and counts stay in this night's folder. They do not go into the 8 Nov confirmation.
 
 Mini sends [GO-MINI.md](GO-MINI.md) on Mini and pushes [logs/MINI-ARMED.md](logs/README.md) before **18:25 UTC**. You read that line from origin. If it is missing at 18:25, you stop. You do not hash. You do not send. You do not pick a new clock.
 
-The eight hashes are written at 18:25 UTC. The rows go up, then the On origin line. Both have to be on this repo before **18:40 UTC**. If the proof line fails, try the same push once more. If it is still missing at 18:40, stop. Do not move the clock.
+The eight hashes are written at 18:25 UTC. The rows go up, then the On origin line. Both have to be on this repo before **18:40 UTC**. If the push is rejected, fetch, rebase onto origin, and push once more. If the proof is still missing, the same runner tries that proof once more. If it is still missing at 18:40, stop. Do not move the clock. Do not start a second runner to retry.
 
 From the armed line, the clock below does the rest. Hashes, genesis, the sends, both counts, and the 32-family load. No third sheet. No spoken word. No "genesis is in". No sixteen-family step.
 
@@ -85,9 +87,9 @@ The ramp is 50 seconds on and 10 seconds off, from 1.2 up by 0.1 toward 2.1. It 
 
 The file clock is the accepting block's header time. The desk's notice time is not that clock. A minute that was not read in full stays marked. The gap is not filled.
 
-The abort line stays **2,500 coins** and **18,000 usable tKAS**. Recount before the 18:55 genesis, and again before the load. Do not lower the line. Do not spend a mining coin at or above 100,000 tKAS. The fee stays where the counted windows left it. A submit rejected for the fee itself stops that part of the run.
+The abort line stays **2,500 coins** and **18,000 usable tKAS**. Recount before the 18:55 genesis, and again before the load. The load uses this same line. A copied lower line is wrong. Do not lower the line. Do not spend a mining coin at or above 100,000 tKAS. The fee stays where the counted windows left it. A submit rejected for the fee itself stops that part of the run.
 
-Before the first genesis, every key this night will use has a coin for the eight-family genesis and a coin left for the load. The thirty-two hashes are published after the eight-family genesis, so the coin the hash file names is the coin the load will spend. Do not print a balance.
+Before the first genesis, a key used for both the eight-family genesis and the load has two funding coins. A key used only for the load has one. The hash and the genesis name the same coin: the largest funding coin. If two coins are the same size, both sides use one fixed order and name that same coin. The thirty-two hashes are published after the eight-family genesis, so the coin the hash file names is the coin the load will spend. Do not print a balance.
 
 Stop on sender-off, pool-low, node-drop, or proc-exit. A node that is not synced does not get a start. A failed submit is a reject. An unaccept is a virtual-chain reorg. It is not by itself a family drop. Keep the sender up unless the phase log shows a drop or an abort. A sender that exits before the window ends stops the load.
 
@@ -100,7 +102,7 @@ Two files in this repo, each before its own first submit. The id stays off the r
 | [hashes/EIGHT.md](hashes/README.md) | 8 | 18:40 UTC |
 | [hashes/THIRTYTWO.md](hashes/README.md) | 32 | 21:10 UTC |
 
-Call git by its full path. Keep its own output, errors included. Empty output is a failed read. Read once more with the same full path. If that read fails too, stop. No file, no send.
+Call git by its full path. Keep its own output, errors included. Empty output is a failed read. Read once more with the same full path. If that read fails too, stop. If the push is rejected, fetch, rebase onto origin, and push once more. No file, no send.
 
 Fixed is the local write time. On origin is the commit time of the commit that put the rows on GitHub. After the push of the rows succeeds, the same runner reads that commit time from origin and writes it into the file, then pushes that one line. The runner does not invent the time. A file with rows and no On origin line is not proof the push happened.
 
@@ -108,9 +110,9 @@ Fixed is the local write time. On origin is the commit time of the commit that p
 
 You send. You also count.
 
-This read, on Tue 10 Nov 2026, starts one runner. The runner sleeps until the clock. It writes a phase log. After the runner is up, the session can die. The runner keeps the clock.
+This read, on Tue 10 Nov 2026, starts one runner, unless a runner for this Tuesday clock is already waiting. Then you leave it. The runner sleeps until the clock. It writes a phase log. After the runner is up, the session can die. The runner keeps the clock.
 
-You count on the desk node for the same two windows Mini counts. The runner writes [counts/desk/FIRST.md](counts/desk/README.md) for 18:58–21:00, and [counts/desk/LOAD.md](counts/desk/README.md) for 21:13–22:15. At each window end the same runner publishes that one file. The chat does not publish it. Resolve git once when the runner starts, keep that full path, and use only that path. Add only the file that just closed. One commit. Push. If the push fails, try the same push once more. If that fails, stop and say the git error. Empty output is a failed read. It is not an empty count. The local file stays. Do not invent a row. Do not start a second runner. A minute you did not read in full stays marked. A txid, a key, a seed, an address, a host, a port, and a covenant id stay out of the file. The accepting block hash may stay on the row. You do not write [counts/mini/](counts/mini/README.md).
+You count on the desk node for the same two windows Mini counts. The runner writes [counts/desk/FIRST.md](counts/desk/README.md) for 18:58–21:00, and [counts/desk/LOAD.md](counts/desk/README.md) for 21:13–22:15. At each window end the same runner publishes that one file. The chat does not publish it. Resolve git once when the runner starts, keep that full path, and use only that path. Add only the file that just closed. One commit. Push. If the push is rejected, fetch, rebase onto origin, and push once more. If that fails, stop and say the git error. Empty output is a failed read. It is not an empty count. The local file stays. Do not invent a row. Do not start a second runner. A minute you did not read in full stays marked. A txid, a key, a seed, an address, a host, a port, and a covenant id stay out of the file. The accepting block hash may stay on the row. You do not write [counts/mini/](counts/mini/README.md).
 
 Before 18:40, prove [hashes/EIGHT.md](hashes/README.md), including its On origin time. Then genesis at 18:55. Then the steps. Then the load, after [hashes/THIRTYTWO.md](hashes/README.md) has an On origin time and the clock has reached 21:15.
 
@@ -148,11 +150,14 @@ The night folders are the working counts. File 1 and file 2 are the handover. Th
 - [GO-MINI.md](GO-MINI.md) as your orders.
 - [GO.md](GO.md) as a start.
 - The 8 Nov rehearsal, or the 10:40 UTC confirmation, as this clock.
+- Writing this night's log, hashes, or counts into an earlier night's folder.
 - A scheduled task as the arm, including the 7 Nov tasks.
 - A spoken "genesis is in".
 - A new clock after 18:40 UTC on Tue 10 Nov 2026.
-- A second runner because a chat compacted.
+- A second runner because a chat compacted, or because a proof failed.
 - Sixteen families on this night.
 - Hiding a git error, or calling empty output zero hashes.
 - A hash file with no On origin time, treated as proof.
+- A hash and a genesis that name different coins.
+- An abort line below 2,500 coins or 18,000 usable tKAS.
 - An id, a txid, a key, a seed, an address, a host, or a port in this repo or in chat.
